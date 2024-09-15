@@ -1,0 +1,110 @@
+-- Users Data
+insert into Users (UserID, Username, FirstName, LastName, DateOfBirth, Password, DateAdded) values (1, 'bscotson0', 'Bat', 'Scotson', '2005-01-11', 'jX8>}}j!', '2001-01-01');
+insert into Users (UserID, Username, FirstName, LastName, DateOfBirth, Password, DateAdded) values (2, 'rchatelain1', 'Reece', 'Chatelain', '2002-07-25', 'dU6{kJ\?{Nxb%', '2001-01-01');
+insert into Users (UserID, Username, FirstName, LastName, DateOfBirth, Password, DateAdded) values (3, 'mabberley2', 'Muire', 'Abberley', '2002-07-10', 'fP0$dLopK9p|bn+', '2001-01-01');
+insert into Users (UserID, Username, FirstName, LastName, DateOfBirth, Password, DateAdded) values (4, 'rtummond3', 'Randee', 'Tummond', '2004-12-26', 'vP8!(caZ', '2001-01-01');
+insert into Users (UserID, Username, FirstName, LastName, DateOfBirth, Password, DateAdded) values (5, 'mmillier4', 'Mellie', 'Millier', '2005-05-20', 'mH2&pgP5VooE<rQ3', '2001-01-01');
+insert into Users (UserID, Username, FirstName, LastName, DateOfBirth, Password, DateAdded) values (6, 'qgosforth5', 'Quintana', 'Gosforth', '2001-08-31', 'kV0(o}8A"!Cjuo8', '2001-01-01');
+insert into Users (UserID, Username, FirstName, LastName, DateOfBirth, Password, DateAdded) values (7, 'kbesantie6', 'Kiah', 'Besantie', '2003-02-06', 'lR5#14#va', '2001-01-01');
+insert into Users (UserID, Username, FirstName, LastName, DateOfBirth, Password, DateAdded) values (8, 'fscotting7', 'Flori', 'Scotting', '2010-07-10', 'iP9*pZ~tCc', '2001-01-01');
+insert into Users (UserID, Username, FirstName, LastName, DateOfBirth, Password, DateAdded) values (9, 'ckeitch8', 'Coletta', 'Keitch', '2005-07-17', 'gG6={5nXeI', '2001-01-01');
+insert into Users (UserID, Username, FirstName, LastName, DateOfBirth, Password, DateAdded) values (10, 'ccubbini9', 'Caye', 'Cubbini', '2003-06-26', 'hK9<uQ"@cvQ', '2001-01-01');
+insert into Users (UserID, Username, FirstName, LastName, DateOfBirth, Password, DateAdded) values (11, 'ttrouela', 'Terra', 'Trouel', '2001-04-08', 'sB9\X.wQv\Wf>c5', '2001-01-01');
+insert into Users (UserID, Username, FirstName, LastName, DateOfBirth, Password, DateAdded) values (12, 'sclarricoatesb', 'Starr', 'Clarricoates', '2003-12-08', 'wN4*{n2e', '2001-01-01');
+insert into Users (UserID, Username, FirstName, LastName, DateOfBirth, Password, DateAdded) values (13, 'coilierc', 'Charo', 'OIlier', '2002-02-27', 'cE7/"MF''C', '2001-01-01');
+insert into Users (UserID, Username, FirstName, LastName, DateOfBirth, Password, DateAdded) values (14, 'browleyd', 'Beaufort', 'Rowley', '2010-12-11', 'tB4*4(uAt{', '2001-01-01');
+insert into Users (UserID, Username, FirstName, LastName, DateOfBirth, Password, DateAdded) values (15, 'fmousbye', 'Fredia', 'Mousby', '2004-09-16', 'nC9)NLO|nqtZ', '2001-01-01');
+insert into Users (UserID, Username, FirstName, LastName, DateOfBirth, Password, DateAdded) values (16, 'pmckeggief', 'Patricia', 'McKeggie', '2005-05-10', 'iT6"iy_%JR,)DZ.', '2001-01-01');
+insert into Users (UserID, Username, FirstName, LastName, DateOfBirth, Password, DateAdded) values (17, 'ahassettg', 'Aloin', 'Hassett', '2001-09-14', 'aN5,j''DExS+Ufk$I', '2001-01-01');
+insert into Users (UserID, Username, FirstName, LastName, DateOfBirth, Password, DateAdded) values (18, 'sorderh', 'Sarge', 'Order', '2004-11-07', 'hV4`/kQ$x$}nV@CJ', '2001-01-01');
+insert into Users (UserID, Username, FirstName, LastName, DateOfBirth, Password, DateAdded) values (19, 'astrongi', 'Aurel', 'Strong', '2003-06-30', 'vZ4@PV|ADND', '2001-01-01');
+insert into Users (UserID, Username, FirstName, LastName, DateOfBirth, Password, DateAdded) values (20, 'bhundeyj', 'Bastian', 'Hundey', '2004-09-25', 'fZ9$c~5pW|', '2001-01-01');
+
+
+-- Friends Data
+insert into Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) values (1, 1, 1, true, '3:11 AM');
+insert into Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) values (2, 2, 2, true, '12:08 AM');
+insert into Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) values (3, 3, 3, false, '1:49 AM');
+insert into Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) values (4, 4, 4, false, '6:19 PM');
+insert into Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) values (5, 5, 5, false, '9:46 PM');
+insert into Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) values (6, 6, 6, false, '8:51 AM');
+insert into Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) values (7, 7, 7, true, '3:40 PM');
+insert into Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) values (8, 8, 8, false, '8:24 AM');
+insert into Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) values (9, 9, 9, true, '11:14 AM');
+insert into Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) values (10, 10, 10, false, '1:04 PM');
+insert into Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) values (11, 11, 11, false, '2:11 PM');
+insert into Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) values (12, 12, 12, true, '11:26 AM');
+insert into Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) values (13, 13, 13, true, '3:21 PM');
+insert into Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) values (14, 14, 14, true, '4:55 AM');
+insert into Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) values (15, 15, 15, true, '1:13 PM');
+insert into Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) values (16, 16, 16, true, '3:32 PM');
+insert into Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) values (17, 17, 17, true, '7:03 AM');
+insert into Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) values (18, 18, 18, true, '7:30 AM');
+insert into Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) values (19, 19, 19, false, '3:03 AM');
+insert into Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) values (20, 20, 20, false, '5:28 PM');
+
+-- Groups Data
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (1, 'Klein-Hayes', 1, '7:05 AM');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (2, 'Ziemann Inc', 2, '8:37 AM');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (3, 'Boyle-Wunsch', 3, '3:06 AM');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (4, 'Brown Group', 4, '5:17 PM');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (5, 'Wisozk Inc', 5, '7:50 PM');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (6, 'Schmeler, Abbott and Senger', 6, '11:19 AM');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (7, 'Nolan Inc', 7, '1:29 PM');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (8, 'Blick-Moore', 8, '8:43 AM');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (9, 'Wehner, Simonis and Pagac', 9, '3:49 AM');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (10, 'Rath-Cartwright', 10, '4:57 PM');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (11, 'Rosenbaum, Miller and Hettinger', 11, '2:15 AM');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (12, 'Stroman, Sporer and Grady', 12, '2:00 AM');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (13, 'Marks-Ledner', 13, '5:19 AM');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (14, 'Shields, Strosin and Ortiz', 14, '3:43 PM');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (15, 'Volkman Group', 15, '12:38 PM');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (16, 'Bradtke Group', 16, '4:43 PM');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (17, 'Hegmann, Hansen and Ledner', 17, '4:36 AM');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (18, 'Durgan Group', 18, '10:32 AM');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (19, 'Ward Group', 19, '7:09 AM');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (20, 'Zulauf Group', 20, '3:31 AM');
+
+-- Posts Data
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (1, 'Activities involving other cardiorespiratory exercise', 1, true, true, 1, '2:13 PM');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (2, 'Displ commnt fx shaft of unsp femr, 7thJ', 2, false, true, 2, '12:16 PM');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (3, 'Other specified injuries of pelvis, initial encounter', 3, true, true, 3, '11:05 AM');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (4, 'Deformity of right orbit due to trauma or surgery', 4, false, true, 4, '4:04 PM');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (5, 'Burn of second degree of unspecified palm, subs encntr', 5, true, false, 5, '4:29 AM');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (6, 'Thrombosis due to cardiac prosth dev/grft', 6, false, false, 6, '10:31 PM');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (7, 'Type 1 diab with mod nonp rtnop without macular edema, unsp', 7, true, true, 7, '7:02 PM');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (8, 'Toxic effect of venom of venomous lizard, assault, sequela', 8, true, false, 8, '4:36 PM');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (9, 'Anterior subcapsular polar age-related cataract, unsp eye', 9, true, false, 9, '7:12 PM');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (10, 'Stiffness of unspecified hip, not elsewhere classified', 10, false, true, 10, '10:34 PM');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (11, 'Complete traum amp at lev betw kn and ankl, r low leg, init', 11, false, false, 11, '11:06 PM');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (12, 'Abnormal findings in cerebrospinal fluid', 12, false, false, 12, '1:00 AM');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (13, 'Idiopathic gout, unspecified hip', 13, false, false, 13, '3:52 PM');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (14, 'Whooping cough due to Bordetella pertussis', 14, false, false, 14, '4:32 AM');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (15, 'Mult fx of pelv w stable disrupt of pelv ring, 7thB', 15, false, true, 15, '1:37 PM');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (16, 'Nerve root and plexus disorder, unspecified', 16, false, true, 16, '1:08 PM');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (17, 'Terrorism w firearms, publ sfty offcl injured, sequela', 17, false, true, 17, '12:32 PM');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (18, 'Unspecified type of carcinoma in situ of left breast', 18, true, false, 18, '1:51 PM');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (19, 'Oth foreign object in esophagus causing oth injury, init', 19, false, false, 19, '1:06 AM');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (20, 'Disp fx of proximal phalanx of l thm, subs for fx w malunion', 20, true, false, 20, '6:41 PM');
+
+-- Group Membership Requests Data
+insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (1, 1, 1, true, '3:39 PM');
+insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (2, 2, 2, false, '3:09 PM');
+insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (3, 3, 3, false, '9:56 PM');
+insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (4, 4, 4, false, '9:43 PM');
+insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (5, 5, 5, true, '12:21 PM');
+insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (6, 6, 6, true, '4:08 AM');
+insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (7, 7, 7, false, '5:32 AM');
+insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (8, 8, 8, false, '3:46 AM');
+insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (9, 9, 9, false, '10:45 PM');
+insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (10, 10, 10, false, '6:40 AM');
+insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (11, 11, 11, false, '6:04 AM');
+insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (12, 12, 12, true, '12:22 AM');
+insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (13, 13, 13, false, '11:40 PM');
+insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (14, 14, 14, true, '4:38 AM');
+insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (15, 15, 15, false, '12:24 PM');
+insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (16, 16, 16, true, '9:51 PM');
+insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (17, 17, 17, true, '7:34 AM');
+insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (18, 18, 18, false, '10:40 AM');
+insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (19, 19, 19, false, '11:41 PM');
+insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (20, 20, 20, true, '4:50 PM');
